@@ -14,3 +14,12 @@ The PowerballAI.py program asks the user if they want Powerball numbers. If yes,
         Generate 5 random numbers from 1 to 69.
         Generate 1 random number from 1 to 26.
         Display the generated numbers with commas and spaces.
+
+The TriviaAI.py program is a trivia quiz program. It defines a set of trivia questions and their correct answers in a dictionary. It then quizzes the user, checking their answers and keeping track of the score. After all questions are answered, it prints the user's final score out of the total number of questions.
+    The steps include:
+        Define a dictionary with trivia questions and their answers
+        Initialize the user's score to 0
+        Iterate through each question in the dictionary
+        Ask the user the current question and get their answer
+        Check if the user's answer is correct (case-insensitive)
+        Display the user's final score
